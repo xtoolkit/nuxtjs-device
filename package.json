@@ -1,0 +1,60 @@
+{
+  "name": "nuxtjs-device",
+  "version": "0.0.1",
+  "description": "User device information for Nuxt.js",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Mehdi HosseinZade <arshen@outlook.com>"
+    }
+  ],
+  "main": "lib/module.js",
+  "types": "types/index.d.ts",
+  "repository": "https://github.com/xtoolkit/nuxtjs-device",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "nuxt test/fixture",
+    "lint": "eslint lib test",
+    "test": "npm run lint && jest",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "eslintIgnore": [
+    "lib/templates/*.*"
+  ],
+  "files": [
+    "lib",
+    "types/*.d.ts"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "testEnvironmentOptions": {
+      "jsdom": {
+        "userAgent": "Agent/007"
+      }
+    }
+  },
+  "dependencies": {
+    "bowser": "^2.9.0",
+    "@nuxtjs/universal-storage": "^0.5.5"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "jsdom": "^16.3.0",
+    "nuxt": "^2.13.3",
+    "standard-version": "latest",
+    "vue": "^2.6.11",
+    "@nuxtjs/now-builder": "^0.17.3",
+    "@nuxtjs/eslint-config": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/proxy": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}

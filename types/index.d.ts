@@ -1,59 +1,59 @@
-import Vue from 'vue'
+import Vue from 'vue';
 
 interface NuxtDeviceBrowser {
   browser: {
-    name: string
-    version: string
-    touch: boolean
-    ip: String
-  }
+    name: string;
+    version: string;
+    touch: boolean;
+    ip: String;
+  };
   os: {
-    name: string
-    version: string
-    versionName: string
-  }
+    name: string;
+    version: string;
+    versionName: string;
+  };
   platform: {
-    type: string
-    vendor: string
-    model: string
-    pwa: boolean
-  }
+    type: string;
+    vendor: string;
+    model: string;
+    pwa: boolean;
+  };
   engine: {
-    name: string
-    version: string
-  }
+    name: string;
+    version: string;
+  };
 }
 
 export interface NuxtDevice {
-  ua: String
-  default: NuxtDeviceBrowser
-  db: NuxtDeviceBrowser
-  isTouch: Boolean
-  update(data?: {}): void
-  filter(data?: {}): Boolean
+  ua: String;
+  default: NuxtDeviceBrowser;
+  db: NuxtDeviceBrowser;
+  isTouch: Boolean;
+  update(data?: {}): void;
+  filter(data?: {}): Boolean;
 }
 
 declare module 'vue/types/vue' {
   interface Vue {
-    $device: NuxtDevice
+    $device: NuxtDevice;
   }
 }
 
 declare module '@nuxt/vue-app' {
   interface Context {
-    $device: NuxtDevice
+    $device: NuxtDevice;
   }
   interface NuxtAppOptions {
-    $device: NuxtDevice
+    $device: NuxtDevice;
   }
 }
 
 // Nuxt 2.9+
 declare module '@nuxt/types' {
   interface Context {
-    $device: NuxtDevice
+    $device: NuxtDevice;
   }
   interface NuxtAppOptions {
-    $device: NuxtDevice
+    $device: NuxtDevice;
   }
 }

@@ -1,5 +1,5 @@
 // eslint-disable-next-line nuxt/no-cjs-in-config
-const { resolve } = require('path')
+const {resolve} = require('path');
 
 // eslint-disable-next-line nuxt/no-cjs-in-config
 module.exports = {
@@ -8,7 +8,7 @@ module.exports = {
   buildDir: resolve(__dirname, '.nuxt'),
   dev: false,
   render: {
-    resourceHints: false,
+    resourceHints: false
   },
-  modules: ['@@'],
-}
+  modules: ['@@']
+};

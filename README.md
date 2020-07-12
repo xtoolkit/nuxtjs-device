@@ -16,7 +16,7 @@ npm install nuxtjs-device --save
 
 ```js
 {
-  modules: ['nuxtjs-device']
+  modules: ['nuxtjs-device'];
 }
 ```
 
@@ -61,16 +61,16 @@ You could want to filter some particular browsers to provide any special support
 const isValidBrowser = this.$device.filter({
   // declare browsers per OS
   windows: {
-    'internet explorer': '>10',
+    'internet explorer': '>10'
   },
   macos: {
-    safari: '>10.1',
+    safari: '>10.1'
   },
 
   // per platform (mobile, desktop or tablet)
   mobile: {
     safari: '>=9',
-    'android browser': '>3.10',
+    'android browser': '>3.10'
   },
 
   // or in general
@@ -83,8 +83,8 @@ const isValidBrowser = this.$device.filter({
 
   // and loose-equality operator
   chrome: '~20', // will match any 20.* sub-version
-  chrome: '~20.1', // will match any 20.1.* sub-version (20.1.19 as well as 20.1.12.42-alpha.1)
-})
+  chrome: '~20.1' // will match any 20.1.* sub-version (20.1.19 as well as 20.1.12.42-alpha.1)
+});
 ```
 
 ## Development

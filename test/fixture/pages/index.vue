@@ -6,11 +6,11 @@
 </template>
 
 <script>
-export default {
-  computed: {
-    isFirefox() {
-      return this.$nuxt.$device.db.browser.name === 'Firefox'
-    },
-  },
-}
+  export default {
+    computed: {
+      isFirefox() {
+        return this.$nuxt.$device.db.browser.name === 'Firefox';
+      }
+    }
+  };
 </script>

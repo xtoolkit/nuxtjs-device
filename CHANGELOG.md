@@ -4,6 +4,4 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 0.0.1 (2020-07-12)
 
-<a name="0.0.1"></a>
-
-## 0.0.1 (2020-07-12)
+init module

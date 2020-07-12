@@ -1,6 +1,6 @@
-# Nuxt Device information
+# Nuxtjs User Device information [![npm (scoped with tag)](https://img.shields.io/npm/v/nuxtjs-device/latest.svg?style=flat-square)](https://npmjs.com/package/nuxtjs-device)
 
-> Device information for Nuxt.js based on [bowser](https://npmjs.com/bowser)
+> user Device information for Nuxt.js based on [bowser](https://npmjs.com/bowser)
 
 [📖 **Release Notes**](./CHANGELOG.md)
 

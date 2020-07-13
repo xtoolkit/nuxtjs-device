@@ -29,31 +29,31 @@ console.log(this.$device.db)
 
 // output
 {
-  "browser":{
-    "name":"Firefox",
-    "version":"78.0",
-    "touch":false,
-    "ip":"127.0.0.1"
+  browser: {
+    name: "Firefox",
+    version: "78.0",
+    touch: false,
+    ip: "127.0.0.1"
   },
-  "os":{
-    "name":"Windows",
-    "version":"NT 10.0",
-    "versionName":"10"
+  os: {
+    name: "Windows",
+    version: "NT 10.0",
+    versionName: "10"
   },
-  "platform":{
-    "type":"desktop",
-    "vendor":"",
-    "model":"",
-    "pwa":false
+  platform: {
+    type: "desktop",
+    vendor: "",
+    model: "",
+    pwa: false
   },
-  "engine":{
-    "name":"Gecko",
-    "version":"20100101"
+  engine: {
+    name: "Gecko",
+    version: "20100101"
   }
 }
 ```
 
-### filter
+### Filter
 
 You could want to filter some particular browsers to provide any special support for them or make any workarounds. It could look like this:
 

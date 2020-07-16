@@ -3,7 +3,7 @@ const request = require('request-promise-native');
 
 const config = require('./fixture/nuxt.config');
 
-const url = path => `http://localhost:3000${path}`;
+const url = path => `http://localhost:3081${path}`;
 const get = path =>
   request({
     uri: url(path),
@@ -19,7 +19,7 @@ describe('basic', () => {
   beforeAll(async () => {
     nuxt = new Nuxt(config);
     await new Builder(nuxt).build();
-    await nuxt.listen(3000);
+    await nuxt.listen(3081);
   }, 60000);
 
   afterAll(async () => {

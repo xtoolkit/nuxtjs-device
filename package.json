@@ -37,7 +37,7 @@
     }
   },
   "dependencies": {
-    "bowser": "^2.9.0",
+    "bowser": "^2.10.0",
     "@nuxtjs/universal-storage": "^0.5.5"
   },
   "devDependencies": {
@@ -56,5 +56,9 @@
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5"
-  }
+  },
+  "keywords": [
+    "nuxtjs",
+    "nuxt"
+  ]
 }

@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.0.4](https://github.com/xtoolkit/nuxtjs-device/compare/v0.0.3...v0.0.4) (2020-07-16)
 
+- update dependency
+- add tags
+
 ### [0.0.3](https://github.com/xtoolkit/nuxtjs-device/compare/v0.0.2...v0.0.3) (2020-07-16)
 
 - fix typo for mouse

@@ -33,6 +33,7 @@ console.log(this.$device.db)
     name: "Firefox",
     version: "78.0",
     touch: false,
+    mouse: false,
     ip: "127.0.0.1"
   },
   os: {

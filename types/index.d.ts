@@ -5,6 +5,7 @@ interface NuxtDeviceBrowser {
     name: string;
     version: string;
     touch: boolean;
+    mouse: boolean;
     ip: String;
   };
   os: {
